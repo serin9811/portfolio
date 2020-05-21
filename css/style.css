@@ -83,7 +83,7 @@ body {
     background: #fff;
     content: '';
     position: absolute;
-    z-indeX: -1;
+    z-index: -1;
 }
 
 .cloud:after {
@@ -119,12 +119,11 @@ body {
     transform: rotate(-10deg);
 }
 
-
 /* 메인페이지 맵용 구름 */
 
 @-webkit-keyframes sky {
     from {
-        left: 110%
+        left: 110%;
     }
     to {
         left: -30%;
@@ -133,7 +132,7 @@ body {
 
 @keyframes sky {
     from {
-        left: 110%
+        left: 110%;
     }
     to {
         left: -30%;
@@ -147,7 +146,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 20s infinite;
     -webkit-animation: sky 20s infinite;
 }
@@ -159,7 +158,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 30s infinite;
     -webkit-animation: sky 30s infinite;
 }
@@ -171,7 +170,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 25s infinite;
     -webkit-animation: sky 25s infinite;
 }
@@ -183,7 +182,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 40s infinite;
     -webkit-animation: sky 40s infinite;
 }
@@ -195,7 +194,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 50s infinite;
     -webkit-animation: sky 50s infinite;
 }
@@ -207,7 +206,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 100s infinite;
     -webkit-animation: sky 100s infinite;
 }
@@ -219,7 +218,7 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 17s infinite;
     -webkit-animation: sky 17s infinite;
 }
@@ -231,14 +230,12 @@ body {
     left: 80%;
     z-index: 500;
     opacity: 0.4;
-    display: "none";
+    display: 'none';
     animation: sky 70s infinite;
     -webkit-animation: sky 70s infinite;
 }
 
-
 /* //////////////////////////////////////////////////////////메인페이지(인트로)끝/////////////////////////////////////////////////////////// */
-
 
 /* //////////////////////////////////////////////////////////메뉴바////////////////////////////////////////////////////////////////// */
 
@@ -250,7 +247,7 @@ header {
     z-index: 999;
 }
 
-header>div.container {
+header > div.container {
     position: relative;
     width: 100%;
     height: 66px;
@@ -301,7 +298,7 @@ article {
     padding-bottom: 24px;
 }
 
-.article-title>h1 {
+.article-title > h1 {
     margin-bottom: 0;
     padding: 18px 0 18px 0;
     font-size: 25px;
@@ -354,7 +351,6 @@ progress {
 -ms-fill {
     background-color: var(--progress-bar-value-color);
 }
-
 
 /* Form Progress */
 
@@ -410,7 +406,6 @@ progress {
     margin-left: -5px;
 }
 
-
 /* Done / Active */
 
 .progressGnb .bar.done,
@@ -420,13 +415,13 @@ progress {
 }
 
 .progressGnb .bar.active {
-    background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+    background: linear-gradient(to right, #eee 40%, #fff 60%);
 }
 
 .progressGnb .circle.done .label {
-    color: #FFF;
+    color: #fff;
     background: #cfdbe6;
-    box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .progressGnb .circle.done .title {
@@ -434,21 +429,18 @@ progress {
 }
 
 .progressGnb .circle.active .label {
-    color: #FFF;
+    color: #fff;
     background: #5781a7;
-    box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .progressGnb .circle.active .title {
     color: #5781a7;
 }
 
-
 /* //////////////////////////////////////////////////////////메뉴바끝/////////////////////////////////////////////////////////// */
 
-
 /* //////////////////////////////////////////////////////////메뉴바끝/////////////////////////////////////////////////////////// */
-
 
 /* //////////////////////////////////////////////////////////메인페이지(맵)시작/////////////////////////////////////////////////////////// */
 
@@ -465,12 +457,11 @@ progress {
 
 #char {
     position: absolute;
-    left: 120PX;
+    left: 120px;
     top: 2280px;
     height: 350px;
     z-index: 100;
 }
-
 
 /* 버튼 */
 
@@ -576,7 +567,6 @@ progress {
     }
 }
 
-
 /* 
 #rock:hover {
     position: absolute;
@@ -586,12 +576,9 @@ progress {
 cursor:url("../media/icons/hammer.png"), default; 
 } */
 
-
 /* //////////////////////////////////////////////////////////메인페이지(맵)끝/////////////////////////////////////////////////////////// */
 
-
 /* ///////////////////////////////////////////////////////////기본셋팅T(팀)/////////////////////////////////////////////////////////// */
-
 
 /* 클릭유도 추가 영역 */
 
@@ -605,9 +592,7 @@ cursor:url("../media/icons/hammer.png"), default;
     display: none;
 }
 
-
 /* 클릭유도 추가 영역 */
-
 
 /* 팝업박스 전체페이지 (주변회색포함)*/
 
@@ -623,7 +608,6 @@ cursor:url("../media/icons/hammer.png"), default;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 /* 리얼팝업부분 화이트 */
 
 #realSpaceT {
@@ -635,14 +619,12 @@ cursor:url("../media/icons/hammer.png"), default;
     overflow-x: hidden;
 }
 
-
 /* 클로즈버튼이 포함된 부분 */
 
 .imgcontainerT {
     text-align: center;
     position: relative;
 }
-
 
 /* 클로즈버튼 셋팅 */
 
@@ -675,33 +657,28 @@ cursor:url("../media/icons/hammer.png"), default;
     justify-content: center;
 }
 
-
 /* 리얼팝업부분 화이트 */
 
 #realSpaceG {
-    position: relative;
     background-color: #fefefe;
     border: 1px solid #888;
     width: 80%;
-    height: 80%;
 }
-
 
 /* 클로즈버튼이 포함된 부분 */
 
 .imgcontainerG {
-    text-align: center;
-    margin: 24px 0 12px 0;
+    display: flex;
+    align-items: center;
     z-index: 1000;
+    background-color: #0f4c81;
 }
-
 
 /* 클로즈버튼 셋팅 */
 
 #closeG {
-    position: absolute;
-    right: 25px;
-    top: 0;
+    margin-left: auto;
+    padding-right: 25px;
     color: #000;
     font-size: 35px;
     font-weight: bold;
@@ -714,23 +691,22 @@ cursor:url("../media/icons/hammer.png"), default;
     cursor: pointer;
 }
 
-
 /* 팝업 헤더에서 사용되는 폰트 */
-
 
 /* 팝업 헤더  */
 
 #chartPopUp_SR h1 {
-    position: absolute;
-    top: 0;
-    font-family: "Black Han Sans", sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
     font-size: 40px;
     text-align: center;
     background-color: #0f4c81;
     color: #fefefe;
-    padding: 40px 0px 40px 0px;
-    width: 100%;
+    padding: 5px 0px 40px 0px;
     z-index: 2000;
+}
+
+#chart-container {
+    position: relative;
 }
 
 #popupBoxf {
@@ -745,7 +721,6 @@ cursor:url("../media/icons/hammer.png"), default;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 /* 리얼팝업부분 화이트 수정불가*/
 
 #realSpacef {
@@ -756,7 +731,6 @@ cursor:url("../media/icons/hammer.png"), default;
     height: 678px;
     position: relative;
 }
-
 
 /* 클로즈버튼 셋팅 */
 
@@ -775,7 +749,6 @@ cursor:url("../media/icons/hammer.png"), default;
     cursor: pointer;
 }
 
-
 /* 팝업박스 전체페이지 (주변회색포함)*/
 
 #popupBoxPf {
@@ -788,7 +761,6 @@ cursor:url("../media/icons/hammer.png"), default;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 
 /* 리얼팝업부분 화이트 */
 
@@ -805,7 +777,6 @@ cursor:url("../media/icons/hammer.png"), default;
     background-color: #0f4c81;
 }
 
-
 /* 클로즈버튼이 포함된 부분 */
 
 .imgcontainerPf {
@@ -813,7 +784,6 @@ cursor:url("../media/icons/hammer.png"), default;
     margin: 24px 0 12px 0;
     position: relative;
 }
-
 
 /* 클로즈버튼 셋팅 */
 
@@ -844,14 +814,12 @@ cursor:url("../media/icons/hammer.png"), default;
     z-index: 2000;
 }
 
-
 /* ///////////////////////////////////////////////////////////기본셋팅T(팀) 끝/////////////////////////////////////////////////////////// */
-
 
 /* ///////////////////////////////////////////////////////////TimeLine 시작///////////////////////////////////////////////////////////// */
 
 .timeline {
-    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    font: normal 16px/1.5 'Helvetica Neue', sans-serif;
     /* background: #456990; */
     color: #fff;
     padding-bottom: 50px;
@@ -937,11 +905,10 @@ time {
     color: #0f4c81;
 }
 
-
 /* ––––––––––––––––––––––EFFECTS–––––––––––––––––––––––––––––– */
 
 .timeline ul li::after {
-    transition: background .5s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
 .timeline ul li.in-view::after {
@@ -951,7 +918,7 @@ time {
 .timeline ul li div {
     visibility: hidden;
     opacity: 0;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .timeline ul li:nth-child(odd) div {
@@ -967,7 +934,6 @@ time {
     visibility: visible;
     opacity: 1;
 }
-
 
 /* –––––––––––––GENERAL MEDIA QUERIES––––––––––––––––––––– */
 
@@ -998,9 +964,7 @@ time {
     }
 }
 
-
 /* ///////////////////////////////////////////////////////////end of TimeLine///////////////////////////////////////////////////// */
-
 
 /* ////////////////////////////////////////////////////////////Form 시작 by MR////////////////////////////////////////////////////////// */
 
@@ -1111,9 +1075,7 @@ time {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-
 /* ///////////////////////////////////////////////////////////end of Form by MR///////////////////////////////////////////////////// */
-
 
 /* ///////////////////////////////////////////////////////////start portfolio by SH////////////////////////////////////////////////////// */
 
@@ -1161,12 +1123,12 @@ time {
 
 .pf-opacity,
 .pf-hover-opacity:hover {
-    opacity: 0.3
+    opacity: 0.3;
 }
 
 .pf-opacity-off,
 .pf-hover-opacity-off:hover {
-    opacity: 1
+    opacity: 1;
 }
 
 .pfSlides {
@@ -1180,8 +1142,7 @@ time {
 
 .pf video {
     width: 100%;
-    margin-bottom: -6px
+    margin-bottom: -6px;
 }
-
 
 /* ///////////////////////////////////////////////////////////end of portfolio by SH///////////////////////////////////////////////////// */
